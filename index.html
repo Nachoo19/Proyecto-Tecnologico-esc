@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> Uso el de bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Proyecto Tecnologico</title>
+
+
+    <!-- Estilos -->
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <label class="logo">
+            Proyecto Tecnologico
+        </label>
+        <ul class="nav__ul">
+            <li><a class="active" href="#nuestro__proyecto">Inicio</a></li>
+            <li><a href="#sobre__nosotros">Sobre Nosotros</a></li>
+            <li><a href="#informacion">Info</a></li>
+            <li><a href="#imagenes">Imagenes</a></li>
+            <li><a href="#contactanos">Contactanos</a></li>
+        </ul>
+        <label class="icono">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <!-- Fin Nav -->
+
+    <!-- Main -->
+
+    <main class="contenido__contendedor">
+        <section class="principal">
+            <div class="texto__principal">
+                <h1 id="nuestro__proyecto">Nuestro Proyecto</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, doloribus? Nisi dicta quod quibusdam placeat magnam iure quasi in nulla.</p>
+                <hr>
+            </div>
+            
+            <div class="imagen__principal" >
+                <img src="./images/foto_inicio.svg" alt="Foto Principal">
+            </div>
+            
+        </section>
+        
+        <section class="sobrenos__container">
+            <div class="text__sobrenos">
+                <h2 id="sobre__nosotros">Sobre nosotros</h2>
+                <p>Somos alumnos del Colegio Don Bosco, esta pagina busca recopilar informacion de relevancia para ayudar a las personas en la pandemia. Nuestros nombres:</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Juan Colomer</li>
+                    <li><i class="fas fa-check-circle"></i> Manuel Salguero</li>
+                    <li><i class="fas fa-check-circle"></i> Enzo Paez</li>
+                    <li><i class="fas fa-check-circle"></i> Gonzalo Oropel</li>
+                </ul>
+            </div>
+            <div class="imagen__sobrenos" >
+                <img src="./images/foto_sobrenos.svg" alt="Sobre Nosotros"
+                >
+            </div>
+        </section>
+
+        <section class="informacion">
+            <h2 id="informacion">Informacion</h2>
+            <div class="informacion__contenedor">
+
+                <div class="info-container">
+                    <img src="./images/informacion__actividades.svg" alt="">
+                    <h4>Actividades</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="./pages/actividades.html">Leer mas</a>
+                </div>
+                <div class="info-container">
+                    <img src="./images/informacion__cuidados.svg" alt="">
+                    <h4>Cuidados</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="./pages/cuidados.html">Leer mas</a>
+                </div>
+                <div class="info-container">
+                    <img src="./images/informacion__trabajo.svg" alt="">
+                    <h4>Trabajo</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="./pages/trabajo.html">Leer mas</a>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="contenedor-sl">
+            <h2 id="imagenes">Imagenes</h2>
+            <div class="slider__contenedor">
+                <div class="contenido__slider">
+                    <section>
+                        <h2>Cuidado para adultos</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero quisquam? Obcaecati provident, non eos quidem sit dignissimos harum illum.</p>
+                        <a href="#">Leer mas</a>
+                    </section>
+                        <img src="./images/Slider/slider5.jpeg" alt="">
+                    
+                </div>
+                <div class="contenido__slider">
+                    <section>
+                        <h2>Tips a tener en cuenta</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero quisquam? Obcaecati provident, non eos quidem sit dignissimos harum illum.</p>
+                        <a href="#">Leer mas</a>
+                    </section>
+                        <img src="./images/Slider/slider2.jpg" alt="">
+                    
+                </div>
+                <div class="contenido__slider">
+                    <section id="trabajo__aparte">
+                        <h2>Consejos despues de trabajar</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero quisquam? Obcaecati provident, non eos quidem sit dignissimos harum illum.</p>
+                        <a href="#">Leer mas</a>
+                    </section>
+                        <img id="img-aparte" src="./images/Slider/slider1.jpg" alt="">
+                    
+                </div>
+                <div class="contenido__slider">
+                    <section>
+                        <h2>Cuidado para adultos</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero quisquam? Obcaecati provident, non eos quidem sit dignissimos harum illum.</p>
+                        <a href="#">Leer mas</a>
+                    </section>
+                        <img src="./images/Slider/slider5.jpeg" alt="">
+                    
+                </div>
+            </div>
+        </div>
+        <section class="formulario">
+            <div class="form__text">
+                <h4 id="contactanos">Contacto</h4>
+                <p>Si tienes alguna sugerencia para nuestra pagina, contactanos...</p>
+            </div>
+            <div class="form__container">
+                <form>
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Apellido...">
+                    <input type="email" placeholder="email">
+                    <textarea placeholder="Asunto"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="img__container">
+            <img src="./images/logo.png" alt="Nose">
+        </div>
+        <p><i>Pagina hecha desde 0 por Juan Colomer 2020</i></p>
+    </footer>
+    <!-- App -->
+    <script src="./JS/app.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4c5136b721.js" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    AOS.init()</script>
+</body>
+</html>
