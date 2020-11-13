@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .nav {
   height: 80px;
   width: 100%;
@@ -166,7 +170,7 @@ nav .icono {
 .info-container p {
   font-size: 1.1rem;
   padding: 10px;
-  text-align: justify;
+  text-align: center;
 }
 .info-container a {
   text-decoration: none;

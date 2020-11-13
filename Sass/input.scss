@@ -1,5 +1,8 @@
 $FontStack: 'Roboto', sans-serif;
 $Color-principal: #ded4b8;
+html{
+    scroll-behavior: smooth;
+}
 .nav {
     height: 80px;
     width: 100%;
@@ -171,7 +174,7 @@ nav .icono {
     p {
         font-size: 1.1rem;
         padding: 10px;
-        text-align: justify;
+        text-align: center;
 
     }
     a {
